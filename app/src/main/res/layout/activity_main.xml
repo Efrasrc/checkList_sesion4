@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="nombre" />
+
+  <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="phone" />
+
+  <CheckBox
+      android:id="@+id/verify"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Mi Checkbox" />
+
+  <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Son algunas etapas en el ciclo de vida de una activity" />
+
+
+  <RadioGroup
+      android:id="@+id/radioGroup"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/radioB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="opcion1" />
+
+    <RadioButton
+        android:id="@+id/radioB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="opcion2" />
+
+    <RadioButton
+        android:id="@+id/radioB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="opcion3" />
+
+    <RadioButton
+        android:id="@+id/radioB4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="opcion4" />
+
+  </RadioGroup>
+
+  <Button
+      android:id="@+id/btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="OK"
+       />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="200dp"
+      android:layout_height="200dp" />
+
+
+
+
+
+</LinearLayout>
